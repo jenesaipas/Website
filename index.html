@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <link rel="icon" href="favicon.png" type="image/gif" sizes="16x16">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="stylesheet" type="text/css" href="simplegrid.css">
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+	<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script>
+  <script type="text/javascript" src="jquery.fullPage.js"></script>
+  <script type="text/javascript">
+    $(document).ready(function() {
+      $('#fullpage').fullpage({
+        sectionsColor: ['#f2e2c4', '#4BBFC3', '#7BAABE', '#566464', '#636070'],
+        anchors: ['firstPage', 'secondPage', '3rdPage', '4thPage', 'lastPage'],
+        menu: '#menu',
+
+        //equivalent to jQuery `easeOutBack` extracted from http://matthewlein.com/ceaser/
+        easingcss3: 'cubic-bezier(0.175, 0.885, 0.320, 1.275)'
+      });
+
+    });
+  </script>
+  <title>Susan Nagy - Minneapolis Front-End Developer</title>
+</head>
+<body>
+  <header>
+  <a href="index.html"><div class="logo"><img src="logo.png" width="200"></div></a>
+  <ul id="menu">
+  	<li data-menuanchor="firstPage"><a href="#firstPage">home</a></li>
+  	<li data-menuanchor="secondPage"><a href="#secondPage">skills</a></li>
+  	<li data-menuanchor="3rdPage"><a href="#3rdPage">work</a></li>
+    <li data-menuanchor="4thPage"><a href="#4thPage">about</a></li>
+    <li data-menuanchor="lastPage"><a href="#lastPage">contact</a></li>
+  </ul>
+        </header>
+          <div id="fullpage">
+          	<div class="section active" id="section0">
+            <div class="mpls">Minneapolis Front End Developer</div><br /><br /><br /><br /><br /><br /><br />
+            <h1>V</h1>
+          </div>
+          	<div class="section" id="section1">
+              <section id="skills" data-anchor="skills">
+              <h1>Skills</h1><br />
+
+              <!-- Grid 1/4 -->
+              		<div class="grid grid-pad">
+              			<div class="col-1-5">
+              				<p>HTML</p><p>CSS</p><p>Sass</p>
+              				</div>
+              			<div class="col-1-5">
+                      <p>Media Queries</p><p>Grid Systems</p><p>Bootstrap</p>
+              				</div>
+              			<div class="col-1-5">
+              				<p>Javascript</p><p>jQuery</p><p>Photoshop</p>
+              				</div>
+              			<div class="col-1-5">
+              				<p>Mockups</p><p>Wireframes</p><p>Wordpress</p>
+                    </div>
+                    <div class="col-1-5">
+                      <p>Site Maps</p><p>UX / UI / IA</p><p>Code mockups</p>
+              				</div>
+              			</div>
+            </div>
+                <div class="section" id="section2">
+
+                <div class="slide"><a href="http://www.keachconstruction.com" target="_blank"><div class="clayton"><img src="keach.png"  width="900px"></a><span>Coded with HTML, CSS, Javascript<br />from clients mockup</span></div></div>
+
+                <div class="slide"><a href="http://www.imtron.com" target="_blank"><div class="clayton"><img src="imtron.png"  width="900px"></a><span>Coded with HTML, SASS from client instructions</span></div></div>
+
+          	    <div class="slide"><a href="http://www.claytontileco.com" target="_blank"><div class="clayton"><img src="claytontile.png"  width="900px"></a><span>PSD Mockup, HTML, CSS, Javascript</span></div></div>
+
+          	    <!--<div class="slide"><a href="mockup2.jpg" target="_blank"><img src="carolina.png" width="900px"></a></div>-->
+
+          	    <div class="slide"><a href="http://garageflooroutfitters.com.review.webleaseusa.com/new-site/index.html" target="_blank"><div class="garage"><img src="garageflooroutfittersmockup.jpg" width="900"></a><span>Mockup</span></div></div>
+
+                <div class="slide"><a href="http://www.auto-quip.ca" target="_blank"><div class="auto"><img src="autoquip.png" width="900px"></a><span>HTML, CSS, Javascript</span></div></div>
+
+                <div class="slide"><a href="http://www.carolinainvestigations.com" target="_blank"><div class="carolina"><img src="carolina.png" width="900px"></a><span>UX Research, Design, Mockup, HTML, CSS</span></div></div>
+
+                <div class="slide">
+                  <a href="http://www.aero-spray.com" target="_blank"><div class="aero"><img src="afteraero.png" width="1000px"></a>
+                <span>Built from complete scratch</span></div></div>
+
+                  <div class="slide">
+                  <a href="http://www.sdyhairsolutions.com" target="_blank"><div class="sdy"><img src="sdy.png" style="margin-top:100px;" width="600px"></a><span>Switched eCommerce templates on Volusion<br />jQuery<br /> Responsive</span></div></div>
+
+                  <div class="slide"><a href="http://www.susannagy.com/gradient/index.html" target="_blank"><div class="gradient"><img src="contact.png"  width="900px"></a><span>HTML, CSS, Basic Design, Responsive</span></div></div>
+
+                  <div class="slide"><a href="http://www.susannagy.com/mstate/parallax.html" target="_blank"><div class="parallax"><img src="parallax.png"  width="900px"></a><span>Parallax Scroll</span></div></div>
+
+
+          	</div>
+            <div class="section" id="section3">
+            <!-- 8/12 and 4/12 layout -->
+
+                <div class="biowrap">
+                    <div class="grid grid-pad">
+                      <div class="col-1-2 mobile-col-1-1">
+            				<div class="bio"><img src="profile.png"width="200" style="margin-left:-200px;"></div>
+                  </div>
+                  <div class="col-1-2 mobile-col-1-1" style="float:left;">
+                    <div class="bio"><p>Susan was originally drawn to photography and "visually communicating", so she went to college for Digital Media Arts in Hawaii where she learned about everything from photoshop, digital and b&amp;w photography, video, web to textile design. At this point, she mostly leaned towards photography and graphic design.<br /><br />
+
+                    After wrapping up college, she moved to Seattle to pursue all the excitement and to see what she liked the best. It wasn't until 2012 when she decided to update her own website when she realized that the web is an even more intriguing technical and creative outlet to engage web users. In 2013 she started taking classes for Web Development to get an Associates Degree. She graduated in 2015 and currently is a downtown dweller in Minneapolis and keeps expanding her skillset. Right now her best skills and practices are UI/Front-End Development overlapping with web design.<br /><br /></p>
+                  </div>
+                  </div>
+
+              </div>
+            </div>
+            </div>
+            <div class="section" id="section4">
+        <div id="page-wrap">
+
+          <div id="contact-area">
+
+           <form method="post" action="contactengine.php">
+             <label for="Name">Name:</label>
+             <input type="text" name="Name" id="Name" />
+
+             <label for="City">City:</label>
+             <input type="text" name="City" id="City" />
+
+             <label for="Email">Email:</label>
+             <input type="text" name="Email" id="Email" />
+
+             <label for="Message">Message:</label><br />
+             <textarea name="Message" rows="20" cols="20" id="Message"></textarea>
+
+             <input type="submit" name="submit" value="Submit" class="submit-button" />
+           </form>
+
+   <div style="clear: both;"></div>
+
+
+ </div>
+
+</div>
+        </div>
+</body>
+</html>

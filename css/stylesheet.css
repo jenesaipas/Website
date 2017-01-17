@@ -1,0 +1,146 @@
+/* Main content */
+body {
+  background: url(bokeh.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height:100%;
+}
+
+@media screen and (max-width: 320px) {
+  body {
+  background: url(bokeh.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height:100%;
+    }
+}
+
+/* Navigation */
+.site-navigation {
+  position:fixed;
+  width:100%;
+  top:12%;
+  left:1%;
+  list-style: none;
+  background-color: rgba(107,101,113,0.2);
+  z-index:20;
+
+}
+
+
+
+.site-navigation ul {
+  list-style: none;
+  margin: 0;
+  padding-left: 0;
+}
+
+.site-navigation li {
+  color: #fff;
+  display: block;
+  float: right;
+  margin: 0 2px 0 0;
+  padding: 1px 15px 1px 15px;
+  position: relative;
+  text-decoration: none;
+  text-transform: uppercase;
+
+}
+.site-navigation ul li:hover{
+    background-color:#21a29d;
+    position:relative;
+}
+
+.site-navigation ul li a{
+    padding:3px 3px;
+    color:#ffffff;
+    display:inline-block;
+    text-decoration:none;
+    font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+    font-size:80%;
+}
+
+/**** SECOND LEVEL MENU ****/
+.site-navigation ul li ul{
+    position:absolute;
+    display:none;
+}
+
+/* show the ul list by applying display:block, note: 150px is the individual menu width.  */
+.site-navigation ul li:hover ul{
+    left:3px;
+    top:23px;
+    display:block;
+}
+
+/* different background color to 2nd level menu items*/
+.site-navigation ul li ul li{
+    background-color:#cae25a;
+}
+
+/* change the background color for the level 2 submenu when hovering the menu */
+.site-navigation ul li:hover ul li:hover{
+    background-color:#b1b536;
+}
+
+/* style the color of level 2 links */
+.site-navigation ul li ul li a{
+    color:#454444;
+    display:inline-block;
+    width:96px;
+}
+
+/* logo */
+.logo img{
+	padding: 1px;
+	top:2%;
+	position:absolute;
+	width:15%;
+	z-index:50;
+}
+
+.main {
+	overflow:auto;
+	background-color:#ffffff;
+	border-color:#a9ae57;
+	border-style:solid;
+	border-radius:10px; 
+	position:absolute; 
+	margin-top:10%; 
+	width:100%; 
+	height:502px;
+}
+
+.aboutimg img {
+max-width:100%;
+max-height:auto;
+margin-bottom:2%;
+margin-left:5%;
+position:absolute;
+top:20%;
+}
+
+.contact {
+cursor: pointer;
+position: absolute;
+background-color: rgba(54,71,77,.4);
+display: block;
+position: absolute;
+width:50%;
+top: 25%;
+color:#f2a477;
+margin-left: 23%;
+margin-right:auto;
+border-radius: 20px;
+border: 10px dashed #F13935;
+font-family: Arial, Helvetica, sans-serif;
+}
+
+input, textarea {
+  background-color: #2b718c;
+
+}
